@@ -7,7 +7,7 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
 # According your chatbot configuration in Facebook Developer Portal you will have to change the values of the following variables
-PAGE_ACCESS_TOKEN = 'EAAV3tdotiQ4BOxEtfbMV9ngrUBdVSZCkixtJVm0l6oOJttXQI9YuuKNIGZAWxV2tBUfyBlLTNVkzmOEZAR5tu8MGcZCZCkdZA2RCgTVp9GSwnFuUBnNaLibjDAwLyMYoQ2mZCnaw7uZBv9wlzp0xi7CZB1ZCYbaWWHy5MvFJfJqjdSIhtvI2rWZCnHxfymw9tQh9CJy2QZDZD'
+PAGE_ACCESS_TOKEN = 'EAASNyV3h3hABO02k8ghYe7ZBZBZBqW0V2CsS6OO6dfSZAwyrZCj3xZCDDw68C1Hwj3S8Qr1EfZAMPdbZA69JXVpXD1QISwQdsh2YPkWTJwrRZBtO78bSTGSgK4PlpIqV0ysK7MulOtzY27OdZBoxZB38ubPxMYkn3GmGNvrbdPXycfJZCGG2t1aRrZBZAMkdEMQ9iDXKOexQZDZD'
 # Verify Token is a random string that you define. It is used to validate the authenticity of the request from Facebook
 # when you set up your webhook. You can set it to any value you like.
 VERIFY_TOKEN = 'my_verify_token_12345'
@@ -17,7 +17,7 @@ def verify():
     print('All parameters:', request.args.to_dict())
     if request.args.get('hub.verify_token') == VERIFY_TOKEN:
         return request.args.get('hub.challenge')
-    return 'Verification failed. Make sure all parameters are correct, example: hub.verify_token, hub.challenge'
+    return 'Chatbot V2: Verification failed. Make sure all parameters are correct, example: hub.verify_token, hub.challenge'
 
 @app.route('/', methods=['POST'])
 def webhook():
