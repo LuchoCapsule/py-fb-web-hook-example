@@ -23,7 +23,7 @@ Some useful projects with Python:
   <br>
   2) If you want to learn how to _deploy_ a Python project on github, go to this  [link](https://docs.google.com/document/d/1tmm6fxwdUKZV3TGuZ2EhYP6aMBcWWp3T8EcElIt92UU/edit?usp=sharing)
 <br>
- 3) How to create and deploy a facebook app [go here](https://docs.google.com/document/d/1HiR0vsAhmF_YhhLPnQdLAt29rHgEBK0ShM1p7DvruCE/edit?usp=sharing) 
+ 3) How to create and deploy a facebook chatbot [go here](https://docs.google.com/document/d/1HiR0vsAhmF_YhhLPnQdLAt29rHgEBK0ShM1p7DvruCE/edit?usp=sharing) 
 <br>
   
 </p> 
